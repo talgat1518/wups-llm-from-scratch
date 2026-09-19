@@ -1,0 +1,16 @@
+WUPS AI is an experimental language model trained from random initialization.
+The model learns to predict the next byte from a small local text corpus.
+No pretrained weights are downloaded or loaded. Training creates a new checkpoint.
+
+Искусственный интеллект помогает анализировать данные, автоматизировать процессы и создавать программные продукты.
+Эта учебная модель начинает со случайных параметров и обучается только на локальном корпусе.
+Цель прототипа — показать полный путь: токенизация, Transformer, обучение, собственный checkpoint и локальная генерация.
+
+Жасанды интеллект мәтіндегі заңдылықтарды үйренеді.
+Бұл прототип дайын модель салмақтарын қолданбайды.
+Оқыту кездейсоқ параметрлерден басталып, жаңа салмақтар сақталады.
+
+A product begins with a problem, a system model, clear interfaces and measurable behavior.
+A database stores state. An API connects components. Tests verify assumptions.
+Model training prepares text, creates tokens, initializes a neural network, computes loss, backpropagates gradients and updates parameters.
+WUPS AI prototype. Own training pipeline. Own checkpoints. Reproducible experiment.
