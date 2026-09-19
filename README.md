@@ -14,7 +14,7 @@ The prototype includes:
 - a decoder-only causal Transformer (`model.py`);
 - random weight initialization;
 - an end-to-end pretraining script (`train.py`);
-- checkpoint metadata and dataset SHA-256;
+- checkpoint metadata;
 - local inference / sampling (`generate.py`);
 - smoke tests;
 - a small self-authored Russian / Kazakh / English training corpus.
@@ -31,9 +31,9 @@ The published prototype has been executed end-to-end on CPU:
 
 - **119,424 parameters** in the verification model;
 - **400 training steps** from random initialization;
-- training loss: **5.5647 → 2.1650**;
-- validation loss: **2.2749**;
-- checkpoint SHA-256: `4b31f8d1725602cc0bc9de47afd9694b43a34b8dc817dccb5a364eb9485fa6d5`.
+- training loss: **5.5512 → 1.9078**;
+- validation loss: **3.0499**;
+- checkpoint SHA-256: `0fac362434a71603a63ccc5aca7bf29fb820f1584d4b780685383ef2fd7d2c3c`.
 
 See [`VERIFICATION.md`](VERIFICATION.md) and [`artifacts/demo_checkpoint_metadata.json`](artifacts/demo_checkpoint_metadata.json).
 
