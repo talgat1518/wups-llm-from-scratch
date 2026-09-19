@@ -1,0 +1,16 @@
+{
+  "project": "wups-llm-from-scratch",
+  "parameters": 119424,
+  "training_steps": 400,
+  "batch_size": 8,
+  "block_size": 64,
+  "d_model": 64,
+  "n_layers": 2,
+  "n_heads": 4,
+  "seed": 1518,
+  "dataset_bytes": 1542,
+  "first_train_loss": 5.5512,
+  "last_train_loss": 1.9078,
+  "validation_loss": 3.0499,
+  "checkpoint_sha256": "0fac362434a71603a63ccc5aca7bf29fb820f1584d4b780685383ef2fd7d2c3c"
+}
